@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--Css Coming From Sass-->
+
+    <link rel="stylesheet/scss" type="text/css" href="sass/style.scss" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="#" />
+
+    <!--BootStrap 4 Css-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!--AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!--Font Awesome-->
+    <script
+      src="https://kit.fontawesome.com/d44b24acad.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>JS API</title>
+  </head>
+
+  <body data-spy="scroll" data-target="#navbarResponsive">
+
+    <!--*********** Simple Project Using API "Covid 19 Tracker" - Check the main.js file **********************-->
+    <div class="container text-center">
+      <br><br>
+      <h1>Covid 19 Tracker For Egypt <img src="" alt="flag" id="flag"><h1>
+        <br>
+    
+    <table class="table table-hover text-center">
+      <thead>
+        <tr>
+         
+          <th>Total Cases</th>
+          <th>Active</th>
+          <th>Critical</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr id="data">
+         
+          
+        </tr>
+      </tbody>
+    </table>
+    <button class="btn btn-danger btn-block" onclick="refreshData()"> Refresh </button>
+    </div>
+
+ 
+ <script src="./main.js"></script>
+  </body>
+</html>
